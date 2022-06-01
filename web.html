@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Smiths Bespoke</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" type='text/css' href="web.css" media="screen">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito+Sans&family=Water+Brush&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+        
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script>
+
+    $(function() {
+        $('.toggle').on('click',function(){
+            if($('.item').hasClass('active')){
+                $('.item').removeClass('active')
+            }
+            else{
+                $('.item').addClass('active')
+            }
+
+
+        })
+    });
+
+</script>
+
+    </head>
+    <body class="bg">
+        
+            
+        <!--navbar-->
+
+        <header id="top">
+            <nav>
+                <ul class='menu'>
+                    <h3 class="logo">MBS</h3>
+                    <li class='item'><a href="#services-anch">Services</a></li>
+                    <li class='item'><a href="#about-anch">About</a></li>
+                    <li class='item'><a href="#example-anch">Examples</a></li>
+                    <li class='item button'><a href="#contact-anch">Contact</a></li>
+                    <li class='toggle'><span class='bars'></span></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!--/navbar-->
+
+    <!--examples1-->
+    <section class="examples-1">
+        <div class="card-1" >
+            <section class="header">Luxury decorative finishes</section>
+            <p>We are dedicated to creating any look you desire by using our attention to detail and knowledge to visualise whatever 
+                our clients want in order to make their vision or concept a reality.
+            </p>
+        </div>
+        <div class='card-2'>
+            <img src="images/close-wall.jpg">
+        </div>
+    </section> 
+    <!--/examples1-->
+
+ <!--examples2-->
+ <section class="examples-2">
+    <div class='card-3'>
+        <img src="images/introwall.jpg">
+    </div>
+    <div class="card-4">
+        <section class="header">Specialist venitian polished plaster</section>
+        <p>At midlands surface design we specialise in venitian and polished plaster application using only the finest materials
+            and products imported all the way from Italy. Suitable for any wall or ceiling in your home, commercial or workspace.
+        </p>
+    </div>
+ </section>
+  <!--/examples2-->
+
+
+
+<!--service-->
+<div id="services-anch" class="service-container">
+    <section class="services">
+        <div class="services-h">
+            <section>Services</section>
+        </div>
+        <div class="services-p">
+            <p>
+               Acheive any look you desire using a veriety of products, colours and application techniques.
+            </p>
+        </div>
+        <section class="gallery">
+            <article class="card">
+                <img src="images/polished-plaster.jpg">
+                <h3>Polished plaster</h3>
+            </article>
+            <article class="card">
+                <img src="images/texture-plaster.jpg">
+                <h3>Textured finish</h3>
+            </article>
+            <article class="card">
+                <img src="images/concrete-plaster.jpg">
+                <h3>Concrete finish</h3>
+            </article>
+            <article class="card">
+                <img src="images/metalic-plaster.jpg">
+                <h3>Metalic finish</h3>
+            </article>
+            <article class="card">
+                <img src="images/stencil-logo.jpg">
+                <h3>Stencil + logo</h3>
+            </article>
+            <article class="card">
+                <img src="images/oxidisation-plaster.jpg">
+                <h3>Oxidation</h3>
+            </article>
+            </section>
+    </section>
+    <section class="statement">
+        <h3>HIGH END LUXURIOUS</h3>
+        <h3>LOW MAINANENCE</h3>
+        <h3>ECO FRIENDLY</h3>
+    </section>
+    
+    </div>
+<!--/service-->
+
+<!--about-->
+<section id="about-anch" class="about">
+    <div class="card-5">
+    <section class="header">About me</section>
+        <p>
+            Hi im liam smith, im a plasterer that specialises in venetian plaster.
+            If this is something That interests you please feel free to email me and we can discuss further.
+             Venetian plaster is a wall and ceiling finish consisting of plaster mixed with marble dust, 
+             applied with a spatula or trowel in thin, multiple layers, 
+             which are then burnished to create a smooth surface with the illusion of depth and texture. 
+             Venetian plaster techniques include marmorino, scagliola, and sgraffito.
+        </p>
+    </div>
+</section>
+
+<!--/about-->
+
+
+<!-----form----->
+<section id="contact-anch" class="contact">
+    <div class="contact-h">
+        <section>Contact us</section>
+    </div>
+    <div class="contact-p">
+        <p>
+          We thrive providing high customer satisfaction and delivering premium quality finishes to meet customer needs.
+        </p>
+    </div>
+    <div class="container">
+       
+        <div class="contactForm">
+            <form>
+                <h2>Send Message</h2>
+                <div class="inputBox">
+                    <input type="text" name="" required="required">
+                    <span>Full Name</span>
+                </div>
+                <div class="inputBox">
+                   <input type="text" name="" required="required">
+                   <span>Email</span>
+               </div>
+               <div class="inputBox">
+                   <textarea required="required"></textarea>
+                   <span>Type your Message...</span>
+               </div>
+               <div class="inputBox">
+                   <input type="submit" name="" value="send">
+               </div>
+            </form>
+        </div>
+    </div>
+</section>
+
+ <!-----/form----->
+<!--/contact-->
+    <footer>
+        <div class="contact-info">
+            <h3>Phone: 07954-176-362</h3>
+        </div>  
+        <div class="contact-info">
+            <h3>Email:Wtp4s@live.co.uk</h3>
+        </div>
+    </footer>
+          
+    </body>
+</html>
