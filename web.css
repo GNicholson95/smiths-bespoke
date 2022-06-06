@@ -159,10 +159,10 @@ a:hover{
     min-width: 250px;
 }
 
-.header{
+.card-1 .header{
     font-family: 'Cormorant Garamond', serif;
     font-weight: 400;
-    font-size: 3rem;
+    font-size: 4.2rem;
     color: #304B37;
     letter-spacing: 1px;
 }
@@ -222,6 +222,13 @@ a:hover{
     justify-self: center;
     align-self: center;
     padding: 0 3rem;
+}
+.header{
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 400;
+    font-size: 3rem;
+    color: #304B37;
+    letter-spacing: 1px;
 }
 .card-4 p{
     font-family: 'Nunito Sans', sans-serif;
@@ -537,15 +544,16 @@ transform: scale(1.05);
 
 footer{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-content: center;
     position: relative;
     width: 100%;
     bottom: 0;
-    height: 2.5rem;
+    min-height: 2.5rem;
     padding: 30px 10%;
     background-color: rgba(10, 10, 10, 0.80);
     border-top: #C0A187 solid 2px;
+    gap: 1rem;
 }
 
 .contact-info {
